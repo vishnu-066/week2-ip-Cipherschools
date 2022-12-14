@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion{
+    margin: 20px;
+}
+
+.accordion .panel {
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+.accordion .panel label {
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    font-weight: bold;
+}
+
+.accordion .panel label::before {
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #333;
+
+}
+
+.accordion .panel .box {
+    display: none;
+}
+
+.accordion .panel input:checked ~ label {
+    color: purple;
+}
+
+.accordion .panel input:checked ~ label::before {
+    transform: rotate(90deg);
+}
+
+.accordion .panel input:checked ~ .box {
+    display: block;
+    padding: 0 20px 10px 20px;
+}
+
+.accordion .panel input {
+    display: none;
+}

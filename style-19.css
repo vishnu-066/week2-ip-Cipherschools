@@ -1,0 +1,16 @@
+div {
+    width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 30px;
+    }
+}
+
+/* 320px - Mobile portraits
+480px - mobile landscape
+600px - Small tablet
+768px - tablet portraits
+940px - tablet landscape
+1240px 0r greater - desktop / laptops  */

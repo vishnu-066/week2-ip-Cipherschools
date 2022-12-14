@@ -1,0 +1,20 @@
+:root{
+    --primary-color: #fff;
+    --secondory-color: rgb(249, 137, 92);
+    --big-font: 40px;
+    --small-font: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    background: var(--secondory-color);
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: var(--small-font);
+
+}

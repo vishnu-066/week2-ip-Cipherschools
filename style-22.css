@@ -1,0 +1,8 @@
+.box {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    border: 2px solid lightpink;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}

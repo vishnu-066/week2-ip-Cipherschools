@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article {
+    height: 50vh;
+    background: url(https://tse3.mm.bing.net/th?id=OIP.bPBCgvp9N0SUbVYJnBg2IQHaEo&pid=Api&P=0) no-repeat center center / cover;
+    color: aliceblue;
+    box-shadow: inset 1000px 0px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 35px 10px ;
+    border: 3px solid lightblue;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+article h1, 
+article p {
+    width: 50%;
+    margin: auto;
+}

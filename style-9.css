@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url('https://tse3.mm.bing.net/th?id=OIP.z1aGZA76HtP9ZEO4vmU4xgHaEo&pid=Api&P=0');
+    background-repeat: no-repeat; 
+    background-position-x: 70%;
+    background-position-y: 0px; 
+    background-size: 470px; */
+    background: url("https://tse3.mm.bing.net/th?id=OIP.z1aGZA76HtP9ZEO4vmU4xgHaEo&pid=Api&P=0") no-repeat 85% 20px / 470px,
+    url("https://welovecatsandkittens.com/wp-content/uploads/2016/02/likes-cutie-copy.jpg") no-repeat 2% 20px /  20vw 50vh ;
+}
+
+article{
+    background-color: rgb(6, 115, 115);
+    width: 40%;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 15%;
+    left: 19%;
+    color: rgb(238, 231, 228);
+}
+
+article h1 {
+    font-size: 20px;
+    color: azure;
+}

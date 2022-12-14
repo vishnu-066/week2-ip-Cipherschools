@@ -1,0 +1,43 @@
+* {
+    /* color: aquamarine; */
+}
+
+p {
+    color: red; 
+}
+
+p {
+   /* this will be prefered */
+    /* color: rgb(10, 68, 68); */
+    font-size: 20px;
+    font-size: 40px;  /* this will be prefered */
+}
+ /* .para {
+    color: black;
+}
+#para {
+    color: blue; 
+}   */
+
+/* combinators */
+/* desendent selectors */
+header p {
+    color: rgb(205, 61, 166);
+}
+
+/*  child selector */
+header > p {
+    background-color: blanchedalmond;
+}
+
+/* adjacent sibling selector */
+header + p {
+    font-style: italic;
+}
+
+/* general sibling selector */
+
+header ~ p{
+    background-color: chartreuse;
+    color: black;
+}

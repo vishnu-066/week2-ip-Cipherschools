@@ -1,0 +1,44 @@
+body {
+    border: 2px solid lightpink;
+    position: relative; 
+    height: 800px;
+  
+}
+
+div {
+    background: lightblue;
+    padding: 20px;
+    margin: 50px;
+    width: 60px;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: 50px;
+    right: -230px;
+    background-color: blue;
+    color: aliceblue;
+    z-index: 100;
+}
+
+.absolute {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    z-index: 200;
+}
+
+.fixed {
+    position: fixed;
+    top: -80px;
+    right: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 30%;
+}

@@ -1,0 +1,22 @@
+/* this is paragraph styling */
+p{
+    color: red;
+    background-color: aqua;
+    /* Absolute */
+    width: 20px;
+    /* Relative Units */
+    width: 75vw;
+    margin: 0;
+    line-height: 1.2;
+}
+
+div{
+    transform: rotate(0deg);
+    width: calc(100% - 20px);
+    height: 100vh;
+    background-image: url("https://valcomm.co.uk/wp-content/uploads/2018/02/background.png");
+    background-size: cover;
+}
+h1,h2,h3,h4,h5,h6{
+    color: aliceblue;
+}
