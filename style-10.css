@@ -1,0 +1,23 @@
+a {
+ color: rgb(229, 74, 170);   
+}
+
+a:link {
+    color: rgb(210, 193, 15);
+}
+
+a:hover {
+    background-color: rgb(160, 239, 239) ;
+}
+
+a:active {
+    color: #000;
+}
+
+a:focus {
+    border: 1px solid green;
+}
+
+a:visited {
+    color: lightsalmon;
+}
